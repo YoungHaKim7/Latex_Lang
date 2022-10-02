@@ -47,6 +47,12 @@ latex.aux latex.dvi latex.log latex.out latex.tex
 
 <br>
 
+# LaTex Latex Overview
+
+https://aty.sdsu.edu/bibliog/latex/latex_top.html
+
+<br>
+
 # CMT - Charlie's Math Template
 
 https://github.com/SirCharlieMars/dotfiles/tree/master/latex_template
