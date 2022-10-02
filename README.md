@@ -53,6 +53,12 @@ https://github.com/SirCharlieMars/dotfiles/tree/master/latex_template
 
 <br>
 
+# LaTeX - Works with LaTeX
+
+https://github.com/lambdasolver/LaTeX
+
+<br>
+
 # How I'm able to take notes in mathematics lectures using LaTeX and Vim
 
 https://castel.dev/post/lecture-notes-1/#environments
