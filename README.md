@@ -1,5 +1,7 @@
 # LaTex Tutorial
 
+- LaTex Tutorial for Beginners Full Course
+
 [https://youtu.be/fCzF5gDy60g](https://youtu.be/fCzF5gDy60g)
 
 <br>
@@ -19,17 +21,53 @@ $ brew search --cask tex-live-utility
 
 ```
 
+https://vinitkumar.me/2019-01-16-Converting-Latex-to-PDF-on-macOS/
+
+<br>
+
+- How to proceed \_\_ LaTeXtoPDF
+
+https://aty.sdsu.edu/bibliog/latex/LaTeXtoPDF.html
+
 <br>
 
 # LaTex Compile
 
 ```
 $ latex latex.tex
+
+latex.aux latex.dvi latex.log latex.out latex.tex
 ```
 
 <br>
 
-# LaTex Template
+- skip.app 불러오기
+- skip open latex.dvi 불러오기
+- export PDF 하면 pdf 로 변환됨.
+
+<br>
+
+# CMT - Charlie's Math Template
+
+https://github.com/SirCharlieMars/dotfiles/tree/master/latex_template
+
+<br>
+
+# How I'm able to take notes in mathematics lectures using LaTeX and Vim
+
+https://castel.dev/post/lecture-notes-1/#environments
+
+<br>
+
+# The differences between TeX engines
+
+https://tex.stackexchange.com/questions/13593/the-differences-between-tex-engines
+
+<br>
+
+# LaTex Template 예제 파일
+
+-
 
 ```
 \documentclass[10pt,a4paper,sans]{moderncv}
@@ -246,4 +284,5 @@ $ latex latex.tex
 %% end of file `template.tex'.
 
 ```
+
 # Latex_Lang
