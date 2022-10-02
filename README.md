@@ -246,3 +246,4 @@ $ latex latex.tex
 %% end of file `template.tex'.
 
 ```
+# Latex_Lang
