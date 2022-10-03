@@ -1,3 +1,3 @@
 #!/bin/bash
 
-rm main.aux main.dvi main.log main.out
+rm main.aux main.dvi main.log main.out main.pdf

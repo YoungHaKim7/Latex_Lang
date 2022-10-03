@@ -37,7 +37,37 @@ https://aty.sdsu.edu/bibliog/latex/LaTeXtoPDF.html
 
 <br>
 
-# LaTex Compile
+# LaTeX to PDF 1
+
+1. mactex install
+
+```
+brew cask install mactex
+```
+
+2. main.tex 파일에서
+
+```
+$ pdflatex main.tex
+
+```
+
+3. ls 해보면
+
+```
+$ ls
+
+build.sh  main.aux  main.out  main.tex
+
+delete.sh main.log  main.pdf
+
+```
+
+pdf 까지 다 나온다 mactex 최고
+
+<br>
+
+# LaTex Compile 2
 
 ```
 $ latex latex.tex
