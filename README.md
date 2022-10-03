@@ -63,7 +63,9 @@ delete.sh main.log  main.pdf
 
 ```
 
-pdf 까지 다 나온다 mactex 최고
+- pdf 까지 다 나온다 mactex 최고
+
+https://superuser.com/questions/1038612/where-do-i-get-the-pdflatex-program-for-mac
 
 <br>
 
