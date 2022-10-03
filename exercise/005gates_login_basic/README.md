@@ -1,3 +1,11 @@
+# How to draw logic gate circuit diagrams in LaTeX with CircuiTikz
+
+- How to draw logic gate circuit diagrams in LaTeX with CircuiTikz
+
+https://youtu.be/WA_g5emkVWY
+
+<br>
+
 # Matrix LaTeX
 
 https://www.physicsread.com/latex-matrix-multiplication/
