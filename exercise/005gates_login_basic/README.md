@@ -1,3 +1,9 @@
+# Logic Gates, Truth Tables, Boolean Algebra AND, OR, NOT, NAND & NOR
+
+https://youtu.be/JQBRzsPhw2w
+
+<br>
+
 # Diode Logic Gates - OR, NOR, AND, & NAND
 
 https://youtu.be/9lqwSaIDm2g
