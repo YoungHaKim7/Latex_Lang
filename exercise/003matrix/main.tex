@@ -1,0 +1,155 @@
+\documentclass[10pt,a4paper,sans]{moderncv}
+
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+\usepackage{amsmath}
+
+\usepackage{multicol}
+
+% adjust the page margins
+%\usepackage[scale=0.8]{geometry}
+\usepackage[left=2cm, right=2cm, top=0.5cm]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvheadnamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+
+% personal data
+\name{Global}{Young}
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+\usepackage{amsmath}
+
+\usepackage{multicol}
+
+% adjust the page margins
+%\usepackage[scale=0.8]{geometry}
+\usepackage[left=2cm, right=2cm, top=0.5cm]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvheadnamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+
+% personal data
+\name{Global}{Young}
+
+%\address{28, Rue Marcelin Berthelot, 92120 - Montrouge - France}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+%\phone[mobile]{+919433548242}      % optional, remove / comment the line if not wanted
+%\phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+%\email{https://www.youtube.com/c/GlobalYoung7/ ytok1108@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{www.youtube.com/c/GlobalYoung7 }                         % optional, remove / comment the line if not wanted
+
+\extrainfo{YouTubeDate of Birth: 1th January, 2022}                % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\documentclass{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,etoolbox}
+\AtBeginEnvironment{bmatrix}{\setlength{\arraycolsep}{5pt}}
+\AtBeginEnvironment{pmatrix}{\setlength{\arraycolsep}{10pt}}
+\begin{document}
+\section{3 * 3 and 2 * 2 matrix multiplication}
+  $$
+     \begin{bmatrix}
+         a_{11} & a_{12} & \cdots & a_{1n}\\
+         a_{21} & a_{22} & \cdots & a_{2n}\\ 
+         \vdots & \vdots & \ddots & \vdots\\ 
+         a_{m1} & a_{m2} & \cdots & a_{mn} 
+     \end{bmatrix}
+     \times
+     \begin{bmatrix}
+         b_{11} & b_{12} & \cdots & b_{1p}\\
+         b_{21} & b_{22} & \cdots & b_{2p}\\ 
+         \vdots & \vdots & \ddots & \vdots\\ 
+         b_{n1} & b_{n2} & \cdots & b_{np} 
+     \end{bmatrix}
+      =
+     \begin{bmatrix}
+         c_{11} & c_{12} & \cdots & c_{1p}\\
+         c_{21} & c_{22} & \cdots & c_{2p}\\ 
+         \vdots & \vdots & \ddots & \vdots\\ 
+         c_{m1} & c_{m2} & \cdots & c_{mp} 
+     \end{bmatrix}
+  $$
+  $$ c_{ij}= a_{i1} b_{1j} + a_{i2} b_{2j} +\cdots+ a_{in} + b_{nj} = \sum_{k=1}^n a_{ik}b_{kj} $$   
+
+\section{2*2 matrix multiplication}
+ $$
+     \begin{bmatrix}
+         0 & 1\\ 
+         0 & 0 
+     \end{bmatrix}
+     \times
+     \begin{bmatrix}
+         0 & 0\\ 
+         1 & 0  
+     \end{bmatrix}
+      =
+     \begin{bmatrix}
+         1 & 0\\ 
+         0 & 0   
+     \end{bmatrix}
+  $$ 
+
+\section{3*3 matrix multiplication}
+  $$
+     \begin{pmatrix}
+         {2  } & {7  } & {3  }\\ 
+         {1} & {5} & {8}\\
+         {0} & {4} & {1}
+     \end{pmatrix}
+     \times
+     \begin{pmatrix}
+         {3} & {0} & {1}\\ 
+         {2} & {1} & {0}\\
+         {1} & {2} & {4} 
+     \end{pmatrix}
+      =
+     \begin{pmatrix}
+         {23} & {13} & {14}\\ 
+         {21} & {21} & {33}\\
+         {9} & {6} & {4} 
+     \end{pmatrix}
+  $$  
+
+\end{document}
+
+
