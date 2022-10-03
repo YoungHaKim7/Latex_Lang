@@ -1,3 +1,9 @@
+# Diode Logic Gates - OR, NOR, AND, & NAND
+
+https://youtu.be/9lqwSaIDm2g
+
+<br>
+
 # How to draw logic gate circuit diagrams in LaTeX with CircuiTikz
 
 - How to draw logic gate circuit diagrams in LaTeX with CircuiTikz
