@@ -4,6 +4,12 @@ https://youtu.be/JQBRzsPhw2w
 
 <br>
 
+# 저항, Vs V1, + - a b나옴. Drawing Circuits in LaTeX using circuitikz
+
+https://youtu.be/WP4LjWs3Oig
+
+<br>
+
 # Diode Logic Gates - OR, NOR, AND, & NAND
 
 https://youtu.be/9lqwSaIDm2g
