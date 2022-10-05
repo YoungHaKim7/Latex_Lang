@@ -1,0 +1,17 @@
+\documentclass[a5paper, fleqn]{article}
+\usepackage[margin=1cm]{geometry}
+\setlength{\footskip}{0.5cm}
+\usepackage[utf8]{inputenc}
+\usepackage{circuitikz}
+
+\begin{document}
+\section{npn logic gate}
+
+\begin{circuitikz}
+    \draw
+    (0,0) to[D, l=$D$] ++(2,0)
+        node[npn, anchor=B] {};
+    \ctikzset{diodes/scale=0.6}
+\end{circuitikz}
+
+\end{document}
