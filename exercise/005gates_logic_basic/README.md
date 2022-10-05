@@ -1,3 +1,15 @@
+# Basic Gates
+
+http://hyperphysics.phy-astr.gsu.edu/hbase/Electronic/gate.html#c1
+
+<br>
+
+# Transistor AND Gate & or & Nand & Nor &
+
+http://hyperphysics.phy-astr.gsu.edu/hbase/Electronic/trangate.html#c1
+
+<br>
+
 # Logic Gates, Truth Tables, Boolean Algebra AND, OR, NOT, NAND & NOR
 
 https://youtu.be/JQBRzsPhw2w
