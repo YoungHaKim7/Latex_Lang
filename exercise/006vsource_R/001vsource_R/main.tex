@@ -1,0 +1,20 @@
+\documentclass{article}
+\usepackage[american, siunitx]{circuitikz}
+\usepackage[utf8]{inputenc}
+\usepackage{circuitikz}
+
+\begin{document}
+\section{V, R L source}
+
+\begin{circuitikz}
+    \draw
+    (0,0)
+    to[vsource, invert] (0,2)
+    to[R] (2, 2)
+    to[L] (4, 2)
+    to[C] (4, 0)
+    -- (0,0)
+    ;
+\end{circuitikz}
+
+\end{document}

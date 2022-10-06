@@ -1,0 +1,58 @@
+\documentclass{article}
+\usepackage[american, siunitx]{circuitikz}
+\usepackage[utf8]{inputenc}
+\usepackage{circuitikz}
+
+\begin{document}
+\section{V, R, L source}
+
+\begin{circuitikz}
+    \draw
+    (0,0)
+    to[vsource, invert, l_=$V_s$] (0,5)
+    to[R, l=R] (5, 5)
+    to[L, l=L, i<=$i_L$] (10, 5)
+    to[C, l=C, v=$v_C$] (10, 0)
+    -- (0,0)
+    ;
+    \draw
+    (5,5)
+    to[R, *-*, color=red] (5,0)
+    ;
+    \draw
+    (5,0)
+    node[ground, label=west:0] {}
+    ;
+\end{circuitikz}
+
+\newpage
+
+    \begin{circuitikz}
+        \draw
+        (0,0)
+        node[op amp] (amp) {OP1}
+        ;
+        \draw
+        (amp.-)
+        -|++(-1,2) coordinate(a)
+        to [C, *-*, l=C]
+        (a-|amp.out) -- (amp.out)
+        ;
+        \draw
+        (a) -- ++(0,2) coordinate(b)
+        to [R, l=R] (b -| amp.out) -- (amp.out)
+        ;
+        \draw
+        (amp.-)
+        -- ++(-1,0)
+        to[R, l=R, *-o] ++(-2,0)
+        node[label=west:$V_{in}$] {}
+        ;
+        \draw
+        (amp.out)
+        to[short, *-o] ++(1,0)
+        node[label=east:$V_{out}$] {}
+        ;
+\end{circuitikz}
+
+\end{document}
