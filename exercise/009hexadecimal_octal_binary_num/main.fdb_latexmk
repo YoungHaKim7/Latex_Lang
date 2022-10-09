@@ -1,0 +1,16 @@
+# Fdb version 3
+["pdflatex"] 1665328911 "/Users/globalyoung/Documents/Project/Github/Latex_Lang/exercise/009hexadecimal_octal_binary_num/main.tex" "main.pdf" "main" 1665328911
+  "/Users/globalyoung/Documents/Project/Github/Latex_Lang/exercise/009hexadecimal_octal_binary_num/main.tex" 1665328910 985 7468dcf4f86acd184ef65239ed392b07 ""
+  "/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1647894602 4385071 4481eb56d8dc7e3e247ed9a139c582cd ""
+  "/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1647894602 35752 024fb6c41858982481f6968b5fc26508 ""
+  "/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/base/article.cls" 1647894602 20144 8a7de377ae7a11ee924a7499611f5a9d ""
+  "/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/base/size10.clo" 1647894602 8448 96f18c76bf608a36ee6fbf021ac1dd32 ""
+  "/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1647894602 29921 d0acc05a38bd4aa3af2017f0b7c137ce ""
+  "/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-dist/web2c/texmf.cnf" 1647894602 40174 4e2f94c7b252db2ad3c0cfdef6912ab3 ""
+  "/opt/homebrew/Cellar/texlive/20220321_3/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1647894602 2826556 1cb051c0242d12558208872c408c5788 ""
+  "main.aux" 1665328911 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "main.tex" 1665328910 985 7468dcf4f86acd184ef65239ed392b07 ""
+  (generated)
+  "main.aux"
+  "main.log"
+  "main.pdf"
