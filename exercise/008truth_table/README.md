@@ -1,5 +1,9 @@
-# 2진수와 16진수 변환표& 8진 표현법 - 출처 : 한권으로 읽는 컴퓨터 구조와 프로그래밍
+# logic gate (AND, OR, XOR, NOT, NAND, NOR and XNOR)
 
-https://economiceco.tistory.com/15263
+https://www.techtarget.com/whatis/definition/logic-gate-AND-OR-XOR-NOT-NAND-NOR-and-XNOR?vgnextfmt=print#and
 
 <br>
+
+# How to center column values in a table?
+
+https://tex.stackexchange.com/questions/157389/how-to-center-column-values-in-a-table
