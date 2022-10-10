@@ -345,7 +345,6 @@ https://tex.stackexchange.com/questions/13593/the-differences-between-tex-engine
 \end{document}
 
 
-%% end of file `template.tex'.
 
 ```
 
