@@ -35,12 +35,86 @@
   \newline\newline
 \caption{Or Gate}\label{tab1}
   \centering
+  \begin{circuitikz}
+    \draw
+    (0,0)
+    node[or port, anchor=out] {}
+    ;
+  \end{circuitikz}
+  \newline
+
   \begin{tabular}{|P{1.5cm}|P{1.5cm}|P{1.5cm}|}
     \hline
-    . & F          & T \\ \hline
-    F & F & F    \\ \hline
-    T & F & T   \\ \hline
+     & \emph{\color{red}{F}}          & \emph{\color{red}{T}} \\ \hline
+    \emph{\color{red}{F}} & F & T    \\ \hline
+    \emph{\color{red}{T}} & T & T   \\ \hline
+  \end{tabular}
+    \newline\newline
+
+  \begin{tabular}{|P{1.5cm}|P{1.5cm}|P{1.5cm}|}
+    \hline
+    Input1 & Input2          & Output \\ \hline
+     &  &     \\ \hline
+      &  1 & 1   \\ \hline
+    1 &   &  1  \\ \hline
+    1 & 1 & 1   \\ \hline
   \end{tabular}
   \newline\newline
+  \newline\newline
+
+\caption{xor Gate}\label{tab1}
+  \centering
+  \begin{circuitikz}
+    \draw
+    (0,0)
+    node[xor port, anchor=out] {}
+    ;
+  \end{circuitikz}
+  \newline
+
+  \begin{tabular}{|P{1.5cm}|P{1.5cm}|P{1.5cm}|}
+    \hline
+     & \emph{\color{red}{F}}          & \emph{\color{red}{T}} \\ \hline
+    \emph{\color{red}{F}} & F & T    \\ \hline
+    \emph{\color{red}{T}} & T & F   \\ \hline
+  \end{tabular}
+    \newline\newline
+
+  \begin{tabular}{|P{1.5cm}|P{1.5cm}|P{1.5cm}|}
+    \hline
+    Input1 & Input2          & Output \\ \hline
+     &  &     \\ \hline
+      &  1 & 1   \\ \hline
+    1 &   &  1  \\ \hline
+    1 & 1 &     \\ \hline
+  \end{tabular}
+  \newline\newline
+  \newline\newline
+
+\caption{Inverter or NOT Gate}\label{tab1}
+  \centering
+  \begin{circuitikz}
+    \draw
+    (0,0)
+    node[not port, anchor=out] {}
+    ;
+  \end{circuitikz}
+  \newline
+
+  \begin{tabular}{|P{1.5cm}|P{1.5cm}|P{1.5cm}|}
+    \hline
+     & \\ \hline
+    \emph{\color{red}{F}} & T \\ \hline
+    \emph{\color{red}{T}} & F \\ \hline
+  \end{tabular}
+  \newline\newline
+    
+  \begin{tabular}{|P{1.5cm}|P{1.5cm}|P{1.5cm}|}
+      \hline
+      Input1 & Output \\ \hline
+      1 &       \\ \hline
+      &  1    \\ \hline
+  \end{tabular}
+
 \end{table}
 \end{document} 
