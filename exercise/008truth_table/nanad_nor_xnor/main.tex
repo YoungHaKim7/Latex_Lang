@@ -18,11 +18,9 @@
     ;
   \end{circuitikz}
   \newline\newline
-
-  %$Y = \overline{(A) + (B)}$ 
-  $A$\cdot$B$$
-
-
+  
+  $Y = \overline{A\cdot B}$ \par 
+  
   \begin{tabular}{|P{1.5cm}|P{1.5cm}|P{1.5cm}|}
     \hline
      & \emph{\color{red}{F}}          & \emph{\color{red}{T}} \\ \hline
@@ -41,21 +39,24 @@
   \end{tabular}
   \newline\newline
   \newline\newline
-\caption{Or Gate}\label{tab1}
+
+\caption{(Exclusive)EX-OR Gate}\label{tab1}
   \centering
   \begin{circuitikz}
     \draw
     (0,0)
-    node[or port, anchor=out] {}
+    node[xor port, anchor=out] {}
     ;
   \end{circuitikz}
   \newline
 
+  $Y = A\oplus B$ 
+
   \begin{tabular}{|P{1.5cm}|P{1.5cm}|P{1.5cm}|}
     \hline
      & \emph{\color{red}{F}}          & \emph{\color{red}{T}} \\ \hline
-    \emph{\color{red}{F}} & F & T    \\ \hline
-    \emph{\color{red}{T}} & T & T   \\ \hline
+    \emph{\color{red}{F}}             & F & T    \\ \hline
+    \emph{\color{red}{T}}             & T & F   \\ \hline
   \end{tabular}
     \newline\newline
 
@@ -65,7 +66,7 @@
      &  &     \\ \hline
       &  1 & 1   \\ \hline
     1 &   &  1  \\ \hline
-    1 & 1 & 1   \\ \hline
+    1 & 1 &     \\ \hline
   \end{tabular}
   \newline\newline
   \newline\newline
