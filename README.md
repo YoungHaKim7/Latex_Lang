@@ -12,6 +12,20 @@ https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes
 
 <br>
 
+# Windows OS Install LaTeX
+
+LaTeX Tutorial 1 - Creating a LaTeX Document
+
+https://youtu.be/qCgqYNhmmDE
+
+<br>
+
+# Windows OS 2
+
+https://youtu.be/SoDv0qhyysQ
+
+<br>
+
 # MacTex Install
 
 - https://tug.org/mactex/mactex-download.html
@@ -335,4 +349,8 @@ https://tex.stackexchange.com/questions/13593/the-differences-between-tex-engine
 
 ```
 
-# Latex_Lang
+# KTUG 한글 Latex 사용자 그룹
+
+http://www.ktug.org/xe/
+
+<br>
