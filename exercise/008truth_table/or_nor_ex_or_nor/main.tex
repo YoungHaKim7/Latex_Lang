@@ -6,37 +6,6 @@
 \begin{document}
 
 \begin{table}
-\caption{And Gate}\label{tab1}
-  \centering
-  \begin{circuitikz}
-    \draw
-    (0,0)
-    node[and port, anchor=out] {}
-    ;
-  \end{circuitikz}
-
-  $Y = {A\cdot B}$ \par 
-
-  \newline\newline
-
-  \begin{tabular}{|P{1.5cm}|P{1.5cm}|P{1.5cm}|}
-    \hline
-     & \emph{\color{red}{F}}          & \emph{\color{red}{T}} \\ \hline
-    \emph{\color{red}{F}} & F & F    \\ \hline
-    \emph{\color{red}{T}} & F & T   \\ \hline
-  \end{tabular}
-  \newline\newline
-
-  \begin{tabular}{|P{1.5cm}|P{1.5cm}|P{1.5cm}|}
-    \hline
-    Input1 & Input2          & Output \\ \hline
-     &  &     \\ \hline
-      &  1 &     \\ \hline
-    1 &   &     \\ \hline
-    1 & 1 & 1   \\ \hline
-  \end{tabular}
-  \newline\newline
-  \newline\newline
 \caption{Or Gate}\label{tab1}
   \centering
   \begin{circuitikz}
@@ -69,6 +38,36 @@
   \newline\newline
   \newline\newline
 
+\caption{NOR Gate}\label{tab1}
+  \centering
+  \begin{circuitikz}
+    \draw
+    (0,0)
+    node[nor port, anchor=out] {}
+    ;
+  \end{circuitikz}
+
+  $Y = \overline{A + B}$ \par 
+  \newline
+
+  \begin{tabular}{|P{1.5cm}|P{1.5cm}|P{1.5cm}|}
+    \hline
+     & \emph{\color{red}{F}}          & \emph{\color{red}{T}} \\ \hline
+    \emph{\color{red}{F}}             & T & F    \\ \hline
+    \emph{\color{red}{T}}             & F & F   \\ \hline
+  \end{tabular}
+    \newline\newline
+
+  \begin{tabular}{|P{1.5cm}|P{1.5cm}|P{1.5cm}|}
+    \hline
+    Input1 & Input2          & Output \\ \hline
+     &  &  1  \\ \hline
+      &  1 &     \\ \hline
+    1 &   &     \\ \hline
+    1 & 1 &     \\ \hline
+  \end{tabular}
+  \newline\newline
+  \newline\newline
 \caption{(Exclusive)xor Gate}\label{tab1}
   \centering
   \begin{circuitikz}
@@ -101,30 +100,37 @@
   \end{tabular}
   \newline\newline
   \newline\newline
-
-\caption{Inverter or NOT Gate}\label{tab1}
+\caption{Exclusive or Gate = Ex-nor gate , Boolean Ex}\label{tab1}
+  
   \centering
   \begin{circuitikz}
     \draw
     (0,0)
-    node[not port, anchor=out] {}
+    node[xnor port, anchor=out] {}
     ;
   \end{circuitikz}
   \newline
 
+  $Y = \overline{A\oplus B}$ 
+
   \begin{tabular}{|P{1.5cm}|P{1.5cm}|P{1.5cm}|}
     \hline
-     & \\ \hline
-    \emph{\color{red}{F}} & T \\ \hline
-    \emph{\color{red}{T}} & F \\ \hline
+     & \emph{\color{red}{F}}          & \emph{\color{red}{T}} \\ \hline
+    \emph{\color{red}{F}}             & T & F    \\ \hline
+    \emph{\color{red}{T}}             & F & T   \\ \hline
+  \end{tabular}
+    \newline\newline
+
+  \begin{tabular}{|P{1.5cm}|P{1.5cm}|P{1.5cm}|}
+    \hline
+    Input1 & Input2          & Output \\ \hline
+     &  &  1  \\ \hline
+      &  1 &     \\ \hline
+    1 &   &     \\ \hline
+    1 & 1 &  1  \\ \hline
   \end{tabular}
   \newline\newline
-    
-  \begin{tabular}{|P{1.5cm}|P{1.5cm}|P{1.5cm}|}
-    \hline
-    Input1 & Output \\ \hline
-    1 &       \\ \hline
-      &  1    \\ \hline
-  \end{tabular}
+  \newline\newline
+
   \end{table}
 \end{document} 
