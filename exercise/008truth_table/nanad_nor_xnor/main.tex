@@ -1,0 +1,106 @@
+\documentclass[conference]{IEEEtran}
+\usepackage{circuitikz}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{mathtools}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+
+\begin{document}
+
+\begin{table}
+\caption{NAND Gate}\label{tab1}
+  \centering
+  \begin{circuitikz}
+    \draw
+    (0,0)
+    node[nand port, anchor=out] {}
+    ;
+  \end{circuitikz}
+  \newline\newline
+
+  %$Y = \overline{(A) + (B)}$ 
+  $A$\cdot$B$$
+
+
+  \begin{tabular}{|P{1.5cm}|P{1.5cm}|P{1.5cm}|}
+    \hline
+     & \emph{\color{red}{F}}          & \emph{\color{red}{T}} \\ \hline
+    \emph{\color{red}{F}} & F & F    \\ \hline
+    \emph{\color{red}{T}} & F & T   \\ \hline
+  \end{tabular}
+  \newline\newline
+
+  \begin{tabular}{|P{1.5cm}|P{1.5cm}|P{1.5cm}|}
+    \hline
+    Input1 & Input2          & Output \\ \hline
+     &  &  1  \\ \hline
+      &  1 &     \\ \hline
+    1 &   &     \\ \hline
+    1 & 1 &     \\ \hline
+  \end{tabular}
+  \newline\newline
+  \newline\newline
+\caption{Or Gate}\label{tab1}
+  \centering
+  \begin{circuitikz}
+    \draw
+    (0,0)
+    node[or port, anchor=out] {}
+    ;
+  \end{circuitikz}
+  \newline
+
+  \begin{tabular}{|P{1.5cm}|P{1.5cm}|P{1.5cm}|}
+    \hline
+     & \emph{\color{red}{F}}          & \emph{\color{red}{T}} \\ \hline
+    \emph{\color{red}{F}} & F & T    \\ \hline
+    \emph{\color{red}{T}} & T & T   \\ \hline
+  \end{tabular}
+    \newline\newline
+
+  \begin{tabular}{|P{1.5cm}|P{1.5cm}|P{1.5cm}|}
+    \hline
+    Input1 & Input2          & Output \\ \hline
+     &  &     \\ \hline
+      &  1 & 1   \\ \hline
+    1 &   &  1  \\ \hline
+    1 & 1 & 1   \\ \hline
+  \end{tabular}
+  \newline\newline
+  \newline\newline
+
+\caption{Exclusive or Gate = Ex-nor gate , Boolean Ex}\label{tab1}
+  
+  \centering
+  \begin{circuitikz}
+    \draw
+    (0,0)
+    node[xnor port, anchor=out] {}
+    ;
+  \end{circuitikz}
+  \newline
+
+  $Y = \overline{A\oplus B}$ 
+
+  \begin{tabular}{|P{1.5cm}|P{1.5cm}|P{1.5cm}|}
+    \hline
+     & \emph{\color{red}{F}}          & \emph{\color{red}{T}} \\ \hline
+    \emph{\color{red}{F}}             & T & F    \\ \hline
+    \emph{\color{red}{T}}             & F & T   \\ \hline
+  \end{tabular}
+    \newline\newline
+
+  \begin{tabular}{|P{1.5cm}|P{1.5cm}|P{1.5cm}|}
+    \hline
+    Input1 & Input2          & Output \\ \hline
+     &  &  1  \\ \hline
+      &  1 &     \\ \hline
+    1 &   &     \\ \hline
+    1 & 1 &  1  \\ \hline
+  \end{tabular}
+  \newline\newline
+  \newline\newline
+
+\end{table}
+\end{document} 
