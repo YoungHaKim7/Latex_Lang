@@ -1,3 +1,9 @@
+# 요즘 잘나가는 typst (230609)
+
+https://github.com/typst/typst
+
+<hr>
+
 # LaTex Tutorial
 
 - LaTex Tutorial for Beginners Full Course
